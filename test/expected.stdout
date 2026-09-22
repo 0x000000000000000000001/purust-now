@@ -1,0 +1,4 @@
+✔️  time advances with now
+✔️  time advances with nowDate
+✔️  can get the current time
+✔️  UTC offset between -13:00 and +15:00
