@@ -27,10 +27,18 @@ package:
 workspace:
   backend:
     cmd: ../purust/bin/purust
-    args: [--main, Test.Main, --source, output, --out, output/purust_output]
+    args: [--main, Test.Main, --source, output, --out, output/purust_output, --threaded]
   packageSet:
     registry: 77.7.0
   extraPackages:
+    arraybuffer-types:
+      path: "../purust-arraybuffer-types"
+    node-buffer:
+      path: "../purust-node-buffer"
+    exists:
+      path: "../purust-exists"
+    ordered-collections:
+      path: "../purust-ordered-collections"
     aff:
       path: "../purust-aff"
     argonaut-core:
